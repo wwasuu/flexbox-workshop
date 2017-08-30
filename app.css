@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  padding: 15px;
+}
+
+.sidenav {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidenav-item {
+  padding: 10px;
+  background-color: #00B16A;
+
+}
+.sidenav-item:hover, .sidenav-item.active {
+  background-color: #1E824C;
+  
+}
+
+.sidenav-item > .fa {
+  font-size: 24px;
+}
+
+.content {
+  display: flex;
+  flex-grow: 5;
+  flex-direction: column;
+}
+
+.content-item {
+  flex-grow: 1;
+}
+
