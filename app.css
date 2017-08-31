@@ -35,10 +35,18 @@
 .content {
   display: flex;
   flex-grow: 5;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .content-item {
-  flex-grow: 1;
+
+  /* flex-grow: 1;  */
+  padding: 7.5px;
+  background-color: #fff;
+}
+
+.content-profile-container {
+  display: flex;
+  flex-direction: row;
 }
 
