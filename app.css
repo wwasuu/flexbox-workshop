@@ -4,19 +4,18 @@
 }
 
 .item1 {
-  flex: 1;
-  order: 3;
+  flex-grow: 1;
   padding: 15px;
 }
 
 .item2 {
-  flex: 1;
+  flex-grow: 2;
   order: 1;
   padding: 15px;
 }
 
 .item3 {
-  flex: 1;
+  flex-grow: 1;
   order: 2; 
   padding: 15px;
 }
