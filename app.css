@@ -4,16 +4,19 @@
 }
 
 .item1 {
-  flex-basis: 100px;
+  align-self: center;
+  height: 150px;
   padding: 15px;
 }
 
 .item2 {
-  flex-basis: 100px;
+  align-self: center;
+  height: 100px;
   padding: 15px;
 }
 
 .item3 {
-  flex-basis: 200px;
+  align-self: center;
+  height: 200px;
   padding: 15px;
 }
