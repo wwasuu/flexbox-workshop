@@ -10,12 +10,10 @@
 
 .item2 {
   flex-grow: 2;
-  order: 1;
   padding: 15px;
 }
 
 .item3 {
   flex-grow: 1;
-  order: 2; 
   padding: 15px;
 }
